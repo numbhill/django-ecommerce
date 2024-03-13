@@ -1,29 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1000c789-bc6e-4b1f-8abf-0c838b8a5188" name="Changes" comment="" />
+    <list default="true" id="1000c789-bc6e-4b1f-8abf-0c838b8a5188" name="Changes" comment="Installed Apps/Core &amp; Item">
+      <change afterPath="$PROJECT_DIR$/cart/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/core/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProjectAronBazini/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProjectAronBazini/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProjectAronBazini/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProjectAronBazini/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/item/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/item/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/item/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/core/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/core/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2dE0VcqN2f0BDerHh673hbz7A5f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.djangoProjectAronBazini.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aron_bazini_ml_exercise_health_analysis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.urls.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aron9/PycharmProjects/djangoProjectAronBazini/media/logo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aron9\PycharmProjects\djangoProjectAronBazini\media\logo" />
+      <recent name="C:\Users\aron9\PycharmProjects\djangoProjectAronBazini\core\templates" />
+      <recent name="C:\Users\aron9\PycharmProjects\djangoProjectAronBazini\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aron9\PycharmProjects\djangoProjectAronBazini\cart\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="djangoProjectAronBazini" type="Python.DjangoServer" factoryName="Django server">
       <module name="djangoProjectAronBazini" />
@@ -66,8 +121,85 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709557954375</updated>
-      <workItem from="1709557984246" duration="4000" />
+      <workItem from="1709557984246" duration="87414000" />
+      <workItem from="1709904201877" duration="22557000" />
     </task>
+    <task id="LOCAL-00001" summary="Fresh Django Project">
+      <option name="closed" value="true" />
+      <created>1709558175440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709558175440</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Django Core">
+      <option name="closed" value="true" />
+      <created>1709634813497</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709634813497</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Core Add">
+      <option name="closed" value="true" />
+      <created>1709634904840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709634904840</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Item Add">
+      <option name="closed" value="true" />
+      <created>1709638215640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709638215640</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Templates First Commit">
+      <option name="closed" value="true" />
+      <created>1709638267982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709638267982</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Installed Apps/Core &amp; Item">
+      <option name="closed" value="true" />
+      <created>1709638348049</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709638348049</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fresh Django Project" />
+    <MESSAGE value="Django Core" />
+    <MESSAGE value="Core Add" />
+    <MESSAGE value="Item Add" />
+    <MESSAGE value="Templates First Commit" />
+    <MESSAGE value="Installed Apps/Core &amp; Item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Installed Apps/Core &amp; Item" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djangoProjectAronBazini$urls.coverage" NAME="urls Coverage Results" MODIFIED="1709634523580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangoProjectAronBazini" />
+    <SUITE FILE_PATH="coverage/djangoProjectAronBazini$aron_bazini_ml_exercise_health_analysis.coverage" NAME="aron_bazini_ml_exercise_health_analysis Coverage Results" MODIFIED="1709562281197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
   </component>
 </project>

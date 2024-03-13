@@ -1,0 +1,90 @@
+{% extends 'core/base.html' %}
+
+{% block title %}All Items |{% endblock %}
+
+{% block content %}
+    <div class="pd-6 grid grid-cols-4 gap-4 bg-violet-200">
+        <div class="col-span-1">
+            <div class="relative mt-20 rounded-md">
+                <form method="get" action="{% url 'item:items' %}" class="px-2 py-3 font-medium">
+                    <input name="query" type="text" value="{{ query }}"
+                           class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                           placeholder="Search for POPs, Tees or Sodas">
+                    <div class="absolute inset-y-0 right-0 flex items-center">
+                        <label for="currency" class="sr-only">Search</label>
+                        {% if query == "" %}
+                            <button class="h-full rounded-md border-0 bg-transparent py-0 pl-2 pr-7 text-indigo-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
+                                Search
+                            </button>
+                        {% else %}
+                            <button class="h-full rounded-md border-0 bg-transparent py-0 pl-2 pr-7 text-indigo-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
+                                <a href="{% url 'item:items' %}">Clear</a>
+                            </button>
+                        {% endif %}
+                    </div>
+                </form>
+            </div>
+
+            <hr>
+
+            <h3 class="sr-only">Categories</h3>
+            <ul role="list" class="px-2 py-3 font-medium text-gray-600">
+                {% for category in categories %}
+                    <li class="{% if category.id == category_id %} bg-violet-300 {% endif %}">
+                        <a href="{% url 'item:items' %}?query={{ query }}&category={{ category.id }}"
+                           class="block px-2 py-3">{{ category.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+
+            <ul class="px-2 font-medium">
+                <li>
+                    <a href="{% url 'item:items' %}"
+                       class="h-full rounded-md border-0 bg-transparent py-0 pl-2 pr-7 text-indigo-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">Clear
+                        filters</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-span-3">
+
+            <div class="bg-white">
+                <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+                    <h2 class="sr-only">Items</h2>
+
+
+                    {% if items %}
+                        <div class="grid grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                            {% for item in items %}
+                                <a href="{% url 'item:detail' item.id %}" class="group">
+                                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-violet-200 xl:aspect-h-8 xl:aspect-w-7">
+                                        <img src="{{ item.image.url }}"
+                                             alt="{{ item.name }}"
+                                             class="h-full w-full object-cover object-center group-hover:opacity-75">
+                                    </div>
+                                    <h3 class="mt-4 text-sm text-gray-700">{{ item.name }}</h3>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">${{ item.price }}</p>
+                                </a>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        <p class="text-lg text-gray-700">Apologies, but we couldn't find any results matching your
+                            search criteria. <br>
+                            Please double-check your search terms or explore our
+                            other offerings.</p>
+                        <br>
+                        <a href="{% url 'item:items' %}"
+                           class="h-full rounded-md border-0 bg-transparent py-0 pl-2 pr-7 text-indigo-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">Go
+                            back to browsing all our items</a>
+                        <br>
+                        <br>
+                        <a href="/"
+                           class="h-full rounded-md border-0 bg-transparent py-0 pl-2 pr-7 text-indigo-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">Return
+                            to the Homepage</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
