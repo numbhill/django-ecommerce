@@ -4,7 +4,7 @@
 </div>
 
 
-# Swish Django Ecommerce
+# Django Ecommerce
 
 Welcome to Swish Store Django Ecommerce! This project is a simple ecommerce platform built using Django, a high-level Python web framework.
 
