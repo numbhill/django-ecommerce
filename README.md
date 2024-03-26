@@ -28,12 +28,4 @@ Welcome to Swish Store Django Ecommerce! This project is a simple ecommerce plat
  - [TailwindCSS](https://tailwindui.com/components#product-ecommerce)
  - [jQuery](https://releases.jquery.com/)
 
-
-## Installation
-
-Install my-project
-
-```bash
-  git clone https://github.com/numbhill/djangoProjectAronBazini.git
-```
     
